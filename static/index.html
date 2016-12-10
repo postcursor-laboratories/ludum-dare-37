@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head profile="http://www.w3.org/2005/10/profile">
+    <title>Ludum Dare 37</title>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        #gameholder {
+            text-align: center
+        }
+
+        #gamediv {
+            display: inline-block;
+        }
+
+        #gamediv > .layer {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 0);
+            top: 0;
+        }
+
+        #gamediv > .layer:nth-of-type(2) {
+            transform: translate(-75%, 0);
+        }
+    </style>
+</head>
+
+<body style="margin-top: 0; margin-left: auto">
+<div id="gameholder">
+    <div id="gamediv">
+        <div class="layer" style="width: 800px; height: 600px; z-index: 0; border: 1px solid black"></div>
+    </div>
+</div>
+<script defer src="babel-polyfill.min.js"></script>
+<script defer src="jquery-3.1.1.min.js"></script>
+<script defer src="game.js"></script>
+</body>
+</html>

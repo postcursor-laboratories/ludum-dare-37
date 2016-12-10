@@ -1,0 +1,11 @@
+{
+    "presets": [
+        ["env", {
+            "browsers": "last 5 versions, >5%"
+        }]
+    ],
+    "comments": false,
+    "plugins": [
+        "transform-function-bind"
+    ]
+}

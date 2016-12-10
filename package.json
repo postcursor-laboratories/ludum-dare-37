@@ -1,0 +1,51 @@
+{
+  "name": "ludum-dare-37",
+  "version": "0.0.1",
+  "description": "???",
+  "browserify-shim": {
+    "jquery": "global:jQuery"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.20.0",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "aliasify": "^2.1.0",
+    "babel-plugin-replace-property": "^1.0.2",
+    "babel-plugin-transform-function-bind": "^6.8.0",
+    "babel-preset-env": "^1.0.0",
+    "babelify": "^7.3.0",
+    "browser-pack": "^6.0.2",
+    "browserify": "^13.1.1",
+    "browserify-shim": "^3.8.12",
+    "chokidar": "^1.6.1",
+    "dateformat": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-batch": "^1.0.5",
+    "gulp-connect": "^5.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sourcemaps": "^2.2.1",
+    "gulp-watch": "^4.3.11",
+    "gulp.spritesmith": "^6.2.1",
+    "layout": "^2.2.0",
+    "merge": "^1.2.0",
+    "merge-stream": "^1.0.1",
+    "minifyify": "^7.3.4",
+    "mkdirp": "^0.5.1",
+    "promise": "^7.1.1",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:postcursor-laboratories/ludum-dare-37"
+  },
+  "author": "Postcursor Laboratories",
+  "contributors": [
+    "kenzierocks (Kenzie Togami)"
+  ],
+  "license": "MIT"
+}
